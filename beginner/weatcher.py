@@ -30,7 +30,7 @@ def data_url(city):
     print(weather + ' °C')
 
 def main():
-    city=input('Enter a city:')
+    city=input('Enter a city for weather:')
     data_url(city)
 
 if __name__=='__main__':
